@@ -5,23 +5,26 @@ const Info = () => {
     <div className="about__info grid">
 
       <div className="about__box">
-        <h3 className="about__title">
-          <span className="about__title"></span>
-        </h3>
+      <i class="bx bx-award about__icon"></i>
+
+        <h3 className="about__title"> Experience </h3>
+        <span className="about__subtitle"> 4+ Years coding</span>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">
-          <span className="about__title"></span>
-        </h3>
+      <i class="bx bx-briefcase-alt-2 about__icon"></i>
+
+        <h3 className="about__title"> Completed </h3>
+        <span className="about__subtitle"> 8+ projects </span>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">
-          <span className="about__title"></span>
-        </h3>
-      </div>
+      <i class="bx bx-laptop about__icon"></i>
       
+        <h3 className="about__title"> Remote work </h3>
+        <span className="about__subtitle"> Easy managment </span>
+      </div>
+
     </div>
   )
 }
