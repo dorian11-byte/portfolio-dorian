@@ -199,8 +199,6 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
 
 /* for small screens */
 @media screen and (max-width: 350px) {
