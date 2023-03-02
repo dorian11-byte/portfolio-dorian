@@ -29,7 +29,7 @@
     color: var(--title-color-dark);
 }
 
-.qa_sections {
+.qa__sections {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
@@ -78,4 +78,38 @@
     height: 100%;
     background-color: var(--text-color);
     transform: translate(6px, -7px);
+}
+
+/* -------- BREAKPOINTS -------- */
+/* for large screens */
+@media screen and (max-width: 992px) {
+    .qa__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* for medium screens */
+@media screen and (max-width: 768px) {
+    .qa__container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .qa__sections {
+        grid-template-columns: initial;
+    }
+
+    .qa__button {
+        margin: 0 var(--mb-0-75);
+    }
+}
+
+/* for small screens */
+@media screen and (max-width: 350px) {
+    .qa__data {
+        gap: 0.5rem;
+    }
 }
