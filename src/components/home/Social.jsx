@@ -6,7 +6,7 @@ const Social = () => {
         <a 
             href="https://www.linkedin.com/in/dorian-raygoza/" 
             className="home__social-icon" 
-            target="_blank" rel="noreferrer"
+            target="_blank" rel="noopener noreferrer"
         >
             <i class="uil uil-linkedin"></i>
         </a>
@@ -14,7 +14,7 @@ const Social = () => {
         <a 
             href="https://github.com/dorian11-byte/" 
             className="home__social-icon" 
-            target="_blank" rel="noreferrer"
+            target="_blank" rel="noopener noreferrer"
         >
             <i class="uil uil-github"></i>
         </a>
@@ -22,7 +22,7 @@ const Social = () => {
         <a 
             href="https://www.behance.net/dorianraygoza11" 
             className="home__social-icon" 
-            target="_blank" rel="noreferrer"
+            target="_blank" rel="noopener noreferrer"
         >
             <i class="uil uil-behance"></i>
         </a>
