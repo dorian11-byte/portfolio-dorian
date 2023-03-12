@@ -35,28 +35,28 @@ const Services = () => {
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                         <h3 className="services__modal-title"> Product Designer </h3>
-                        <p className="services__modal-description"> Services with quality and the best code practices
-                        providing solution as SaaS to clients and companies loking for a Tech solution in their operations</p>
+                        <p className="services__modal-description"> Services with quality and the best design practices
+                        providing solution as Logo maker, Brand Image, with the best models to design</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    I develop de user Interface
+                                    I Design with Corel Draw and Adobe Illustrator
                                 </p>
                             </li>
 
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                    Web Page Development
+                                    Logo Maker
                                 </p>
                             </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Create the UX elements interactions
+                                        Web page design
                                     </p>
                                 </li>
 
@@ -75,7 +75,7 @@ const Services = () => {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                </div>
             </div>
 
             <div className="services__content">
@@ -92,8 +92,8 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title"> UX/UI Designer</h3>
-                            <p className="services__modal-description"> Services with quality and the best code practices
-                            providing solution as SaaS to clients and companies loking for a Tech solution in their operations</p>
+                            <p className="services__modal-description"> Development the software with the best practices of UX/UI and apply to the 
+                            projects that I work, with the best unit test about the user</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -120,7 +120,7 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desing your logos and branding
+                                        Desing your Guide of Interactions
                                     </p>
                                 </li>
 
@@ -157,35 +157,35 @@ const Services = () => {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I develop de user Interface
+                                        Programming the UI model 
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Web Page Development
+                                        Convert to code the Figma designs
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Create the UX elements interactions
+                                        Create the documentation
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Desing your logos and branding
+                                        Git and Github for the versions
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I Desing and Mockups in figma for your project
+                                        UML Diagram of the project
                                     </p>
                                 </li>
                             </ul>
