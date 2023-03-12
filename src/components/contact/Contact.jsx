@@ -6,6 +6,20 @@ import './contact.css'
 
 const Contact = () => {
 
+    const validateForm = (formData) => {
+        const errors = {};
+        const requiredFields = ["name", "email", "project"];
+
+        requiredFields.forEach((field) => {
+            if (!formData[field]) {
+                errors[field] = "This field is required";
+            }
+        });
+
+        return errors;
+    };
+
+
     const MySwal = withReactContent(Swal)
 
     const form = useRef();
@@ -13,18 +27,38 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        //make a validation of the form to avoid sending empty fields
+        const formData = new FormData(form.current);
+        const errors = validateForm(Object.fromEntries(formData.entries()));
+
+        if (Object.keys(errors).length > 0) {
+            // Display errors to user
+            MySwal.fire({
+                icon: 'error',
+                title: <p>You have to complete all the fields</p>
+            })
+            console.log(errors);
+            return;
+        }
+
+        //if no errors, send the email
+
         emailjs.sendForm('service_al4l8t9', 'template_jymt0bn', form.current, 's4aWOgHbkPCi1dygh')
         .then((result) => {
             MySwal.fire({
-                title: <p>Message sent successfully</p>,
+                title: <p>Email sent successfully</p>,
+                html: <p>I will respond as soon as posible</p>,
                 icon: 'success',
-                confirmButtonText: 'Ok'
+                confirmButtonText: 'Ok',
+                timer: 2000
             })
         }, (error) => {
             MySwal.fire({
                 title: <p>Message not sent</p>,
+                html: <p>Please try again later</p>,
                 icon: 'error',
-                confirmButtonText: 'Ok'
+                confirmButtonText: 'Ok',
+                timer: 2000
             })
         });
         e.target.reset()
@@ -106,10 +140,10 @@ const Contact = () => {
                             </textarea>
                         </div>
 
-                        <a href="#contact" className="button button--flex">
+                        <button className="button button--flex">
                             Send Message 
                             <i className="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </form>
                 </div>
             </div>
