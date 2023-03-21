@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/Image.png'
 import Info from './Info'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/CV - FrontEnd - Dorian Samuel Raygoza Alvarado.pdf'
 
 const About = () => {
   return (
