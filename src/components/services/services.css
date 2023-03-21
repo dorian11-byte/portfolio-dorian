@@ -111,7 +111,9 @@
 .active-modal {
     opacity: 1;
     visibility: visible;
+    overflow-block: hidden;
 }
+
 
 /* -------- BREAKPOINTS -------- */
 /* for large screens */

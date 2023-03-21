@@ -141,11 +141,11 @@ const Services = () => {
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">Software <br /> Engineer </h3>
 
-                    <span className="services__button" onClick={() => toggleTab(2)}>
+                    <span className="services__button" onClick={() => toggleTab(3)}>
                         View More <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
+                    <div className={toggleState === 3 ? "services__modal active-modal scroll" : "services__modal"}>
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
