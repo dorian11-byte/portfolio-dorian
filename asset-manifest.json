@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio-dorian/static/css/main.6cc4a38f.css",
-    "main.js": "/portfolio-dorian/static/js/main.d0946cb1.js",
+    "main.js": "/portfolio-dorian/static/js/main.e6d69acf.js",
     "static/media/me.jpeg": "/portfolio-dorian/static/media/me.0ab5f1b382ca12e116c3.jpeg",
     "static/media/Image.png": "/portfolio-dorian/static/media/Image.a55e26f1f00d455ac301.png",
     "static/media/CV.pdf": "/portfolio-dorian/static/media/CV.cec85e9954335bcd44c6.pdf",
     "index.html": "/portfolio-dorian/index.html",
     "main.6cc4a38f.css.map": "/portfolio-dorian/static/css/main.6cc4a38f.css.map",
-    "main.d0946cb1.js.map": "/portfolio-dorian/static/js/main.d0946cb1.js.map"
+    "main.e6d69acf.js.map": "/portfolio-dorian/static/js/main.e6d69acf.js.map"
   },
   "entrypoints": [
     "static/css/main.6cc4a38f.css",
-    "static/js/main.d0946cb1.js"
+    "static/js/main.e6d69acf.js"
   ]
 }
