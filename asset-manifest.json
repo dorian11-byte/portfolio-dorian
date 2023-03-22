@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-dorian/static/css/main.6cc4a38f.css",
-    "main.js": "/portfolio-dorian/static/js/main.c6015a3e.js",
+    "main.css": "/portfolio-dorian/static/css/main.a97c303a.css",
+    "main.js": "/portfolio-dorian/static/js/main.3946e2d2.js",
     "static/media/me.jpeg": "/portfolio-dorian/static/media/me.0ab5f1b382ca12e116c3.jpeg",
+    "static/media/work2.png": "/portfolio-dorian/static/media/work2.eaa203c4eee457ba8981.png",
+    "static/media/work1.png": "/portfolio-dorian/static/media/work1.2afa2bb7430335733092.png",
     "static/media/CV - FrontEnd - Dorian Samuel Raygoza Alvarado.pdf": "/portfolio-dorian/static/media/CV - FrontEnd - Dorian Samuel Raygoza Alvarado.07f56ec96134715c6264.pdf",
+    "static/media/work1.2.png": "/portfolio-dorian/static/media/work1.2.d1d67b52823f81520b30.png",
+    "static/media/work5.png": "/portfolio-dorian/static/media/work5.cc6c377f94becf9e91cd.png",
     "static/media/Image.png": "/portfolio-dorian/static/media/Image.a55e26f1f00d455ac301.png",
+    "static/media/work4.png": "/portfolio-dorian/static/media/work4.8299540308156540f7c9.png",
+    "static/media/work3.png": "/portfolio-dorian/static/media/work3.bc0bbd1dd8580dccd850.png",
     "index.html": "/portfolio-dorian/index.html",
-    "main.6cc4a38f.css.map": "/portfolio-dorian/static/css/main.6cc4a38f.css.map",
-    "main.c6015a3e.js.map": "/portfolio-dorian/static/js/main.c6015a3e.js.map"
+    "main.a97c303a.css.map": "/portfolio-dorian/static/css/main.a97c303a.css.map",
+    "main.3946e2d2.js.map": "/portfolio-dorian/static/js/main.3946e2d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cc4a38f.css",
-    "static/js/main.c6015a3e.js"
+    "static/css/main.a97c303a.css",
+    "static/js/main.3946e2d2.js"
   ]
 }
